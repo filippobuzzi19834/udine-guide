@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Welcome to Udine · Friuli Venezia Giulia</title>
+<title>Corner25 · Welcome to Udine · Friuli Venezia Giulia</title>
 <meta name="description" content="A small local guide for easy days in Friuli Venezia Giulia">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫒</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
 <style>
 :root{
- --olive:#5c6b3c; --olive-dark:#3e4a26; --olive-deep:#2c351b; --olive-light:#8a9a5b;
- --sage:#b8c49a; --cream:#f7f5ec; --paper:#fffdf6; --ink:#2b2f22;
- --gold:#c9a24b; --terra:#b4643c; --shadow:0 10px 30px rgba(44,53,27,.12);
+ --olive:#457b9d; --olive-dark:#2b5876; --olive-deep:#1d3557; --olive-light:#a8dadc;
+ --sage:#a8dadc; --cream:#f1faee; --paper:#fdfffd; --ink:#22333f;
+ --gold:#e9c46a; --terra:#e76f51; --shadow:0 10px 30px rgba(29,53,87,.12);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -22,65 +22,65 @@ h1,h2,h3{font-family:'Cormorant Garamond',serif}
 a{color:var(--olive-dark)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 22px}
 /* header */
-header{position:sticky;top:0;z-index:50;background:rgba(44,53,27,.92);backdrop-filter:blur(10px);color:#fff}
+header{position:sticky;top:0;z-index:50;background:rgba(29,53,87,.92);backdrop-filter:blur(10px);color:#fff}
 .hbar{display:flex;align-items:center;justify-content:space-between;height:58px}
-.brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;letter-spacing:.06em;color:#f3efdf;text-decoration:none;font-weight:600}
+.brand{font-family:'Cormorant Garamond',serif;font-size:1.25rem;letter-spacing:.06em;color:#f1faee;text-decoration:none;font-weight:600}
 .brand em{color:var(--gold);font-style:normal}
-nav.top a{color:#e8e4d2;text-decoration:none;margin-left:22px;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase}
+nav.top a{color:#dcebec;text-decoration:none;margin-left:22px;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase}
 nav.top a:hover{color:var(--gold)}
 .langbtn{border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:4px 14px!important}
 /* hero */
 .hero{background:linear-gradient(160deg,var(--olive-deep) 0%,var(--olive-dark) 45%,var(--olive) 100%);color:#f5f3e7;text-align:center;padding:84px 20px 96px;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% -10%,rgba(201,162,75,.25),transparent 55%),radial-gradient(ellipse at 10% 110%,rgba(184,196,154,.18),transparent 50%)}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% -10%,rgba(168,218,220,.30),transparent 55%),radial-gradient(ellipse at 10% 110%,rgba(233,196,106,.15),transparent 50%)}
 .hero>*{position:relative}
-.kicker{letter-spacing:.35em;text-transform:uppercase;font-size:.78rem;color:var(--gold);margin-bottom:18px}
+.kicker{letter-spacing:.35em;text-transform:uppercase;font-size:.78rem;color:var(--sage);margin-bottom:18px}
 .hero h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:600;line-height:1.05}
-.hero h2{font-size:clamp(1.05rem,2.4vw,1.45rem);font-weight:500;font-style:italic;color:#ddd8bf;margin-top:14px}
-.hero p.lead{max-width:680px;margin:26px auto 0;color:#e9e6d3;font-weight:300;font-size:1.05rem}
-.hero .cta{display:inline-block;margin-top:34px;background:var(--gold);color:var(--olive-deep);text-decoration:none;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:.85rem;padding:14px 34px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:.2s}
-.hero .cta:hover{transform:translateY(-2px);background:#d8b25e}
+.hero h2{font-size:clamp(1.05rem,2.4vw,1.45rem);font-weight:500;font-style:italic;color:#cfe6e8;margin-top:14px}
+.hero p.lead{max-width:680px;margin:26px auto 0;color:#e3f1f2;font-weight:300;font-size:1.05rem}
+.hero .cta{display:inline-block;margin-top:34px;background:var(--gold);color:var(--olive-deep);text-decoration:none;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:.85rem;padding:14px 34px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.28);transition:.2s}
+.hero .cta:hover{transform:translateY(-2px);background:#f0d185}
 .divider{height:6px;background:linear-gradient(90deg,var(--gold),var(--terra) 35%,var(--olive-light) 75%,var(--gold))}
 /* guide */
 .guide{padding:64px 0 30px}
 .sec-head{text-align:center;margin-bottom:44px}
 .sec-head h2{font-size:clamp(2rem,4vw,2.9rem);color:var(--olive-deep);font-weight:600}
 .sec-head .rule{width:70px;height:3px;background:var(--gold);margin:14px auto 0;border-radius:2px}
-.gsec{background:var(--paper);border:1px solid #e7e2cf;border-radius:18px;box-shadow:var(--shadow);padding:34px 36px;margin-bottom:26px}
+.gsec{background:var(--paper);border:1px solid #d9e8e3;border-radius:18px;box-shadow:var(--shadow);padding:34px 36px;margin-bottom:26px}
 .gsec h3{font-size:1.7rem;color:var(--olive-dark);font-weight:600;display:flex;align-items:center;gap:12px;margin-bottom:8px}
 .gsec .icon{font-size:1.3rem;background:var(--cream);border:1px solid var(--sage);border-radius:12px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;flex:none}
 .note{font-size:.9rem;font-style:italic;color:var(--terra);margin:2px 0 6px;border-left:3px solid var(--gold);padding-left:12px}
 .items{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:4px 34px;margin-top:14px}
-.item{padding:12px 0;border-bottom:1px dashed #ded8c0}
+.item{padding:12px 0;border-bottom:1px dashed #c4dcd6}
 .item-name{font-weight:600;color:var(--olive-deep);letter-spacing:.02em}
-.item-desc{font-weight:300;font-size:.95rem;color:#4a4f3b}
+.item-desc{font-weight:300;font-size:.95rem;color:#3f5261}
 /* experiences */
-.exp{padding:70px 0 60px;background:linear-gradient(180deg,var(--cream),#edeadd)}
+.exp{padding:70px 0 60px;background:linear-gradient(180deg,var(--cream),#e2f0ec)}
 .exp .sec-head p{max-width:760px;margin:16px auto 0;font-weight:300}
-.disclaimer{max-width:860px;margin:22px auto 0;background:#f2efdf;border:1px solid var(--sage);border-radius:12px;padding:14px 20px;font-size:.85rem;color:#55603a;text-align:center}
+.disclaimer{max-width:860px;margin:22px auto 0;background:#e6f4f4;border:1px solid var(--sage);border-radius:12px;padding:14px 20px;font-size:.85rem;color:#2b5876;text-align:center}
 .toolbar{display:flex;justify-content:center;margin:34px 0 10px}
 .search{width:min(560px,100%);position:relative}
 .search input{width:100%;padding:14px 22px 14px 48px;border-radius:999px;border:1.5px solid var(--sage);background:var(--paper);font:inherit;font-size:1rem;color:var(--ink);outline:none;box-shadow:var(--shadow)}
 .search input:focus{border-color:var(--olive)}
 .search svg{position:absolute;left:18px;top:50%;transform:translateY(-50%);width:18px;height:18px;stroke:var(--olive);fill:none;stroke-width:2}
-.count{text-align:center;font-size:.85rem;color:#6a7350;letter-spacing:.06em;margin-bottom:26px}
+.count{text-align:center;font-size:.85rem;color:#54728a;letter-spacing:.06em;margin-bottom:26px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(265px,1fr));gap:26px}
-.card{background:var(--paper);border-radius:16px;overflow:hidden;border:1px solid #e5e0cc;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease;text-decoration:none;color:var(--ink)}
-.card:hover{transform:translateY(-5px);box-shadow:0 16px 38px rgba(44,53,27,.2)}
+.card{background:var(--paper);border-radius:16px;overflow:hidden;border:1px solid #d9e8e3;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease;text-decoration:none;color:var(--ink)}
+.card:hover{transform:translateY(-5px);box-shadow:0 16px 38px rgba(29,53,87,.22)}
 .thumb{position:relative;aspect-ratio:3/2;background:linear-gradient(135deg,var(--sage),var(--olive-light));overflow:hidden}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.loc{position:absolute;left:12px;bottom:12px;background:rgba(44,53,27,.82);color:#f3efdf;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.loc{position:absolute;left:12px;bottom:12px;background:rgba(29,53,87,.85);color:#f1faee;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:999px}
 .cbody{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
 .ctitle{font-family:'Cormorant Garamond',serif;font-size:1.22rem;font-weight:600;line-height:1.25;color:var(--olive-deep)}
 .cprice{margin-top:8px;font-size:.88rem;color:var(--terra);font-weight:500}
 .cgo{margin-top:auto;padding-top:14px;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--olive);font-weight:600}
 .card:hover .cgo{color:var(--terra)}
-.nores{text-align:center;padding:50px 0;color:#6a7350;font-style:italic;display:none}
+.nores{text-align:center;padding:50px 0;color:#54728a;font-style:italic;display:none}
 /* footer */
-footer{background:var(--olive-deep);color:#cfcab0;padding:52px 0 40px;font-size:.85rem;font-weight:300}
-footer .enjoy{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:#f0ecd8;text-align:center;margin-bottom:30px}
+footer{background:var(--olive-deep);color:#c3d7dc;padding:52px 0 40px;font-size:.85rem;font-weight:300}
+footer .enjoy{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:#f1faee;text-align:center;margin-bottom:30px}
 footer p{max-width:900px;margin:0 auto 12px;text-align:center}
 footer a{color:var(--gold)}
-.topline{text-align:center;margin-top:26px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#8f9a6e}
+.topline{text-align:center;margin-top:26px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#7fa2b8}
 @media(max-width:640px){
  nav.top a:not(.langbtn){display:none}
  .gsec{padding:26px 22px}
@@ -90,7 +90,7 @@ footer a{color:var(--gold)}
 </head>
 <body>
 <header><div class="wrap hbar">
- <a class="brand" href="#top">Casa <em>Udine</em> · Friuli Guide</a>
+ <a class="brand" href="#top">Corner<em>25</em> · Udine Guide</a>
  <nav class="top">
   <a href="#guide">The Guide</a>
   <a href="#experiences">Experiences</a>
@@ -99,7 +99,7 @@ footer a{color:var(--gold)}
 </div></header>
 
 <div class="hero" id="top">
- <div class="kicker">Udine · Friuli Venezia Giulia</div>
+ <div class="kicker">Corner25 · Udine · Friuli Venezia Giulia</div>
  <h1>Welcome to Udine</h1>
  <h2>A small local guide for easy days in Friuli Venezia Giulia</h2>
  <p class="lead">From Venetian-style piazzas and cosy osterie to Adriatic beaches, Roman ruins, vineyards and Alpine lakes — Udine is a beautiful base for discovering Friuli.</p>
@@ -159,7 +159,7 @@ footer a{color:var(--gold)}
   <p>This is an unofficial, non-commercial guide prepared for our Airbnb guests in Udine. We are not affiliated with, endorsed by or connected to PromoTurismoFVG.</p>
   <p>All experience content (titles, images, prices, descriptions) belongs to PromoTurismoFVG / turismofvg.it and its partner suppliers. Bookings, payments, cancellations and customer service are handled exclusively by them. — <a href="https://www.turismofvg.it" target="_blank" rel="noopener">turismofvg.it</a></p>
   <p>Guide last checked: June 2026. Please verify opening hours, reservations and seasonal services before travelling. Main references: PromoTurismoFVG, MICHELIN Guide, official restaurant / car-rental / taxi / public-transport pages.</p>
-  <div class="topline">© PromoTurismoFVG for all experience content · Guide © Casa Udine 2026</div>
+  <div class="topline">© PromoTurismoFVG for all experience content · Guide © Corner25 · Udine 2026</div>
  </div>
 </footer>
 
