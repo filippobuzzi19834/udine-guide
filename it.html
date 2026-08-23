@@ -87,6 +87,8 @@ footer a{color:var(--gold)}
  .items{grid-template-columns:1fr}
 }
 .item-name a{color:inherit;text-decoration:none;border-bottom:1.5px dotted var(--olive)}.item-name a:hover{color:var(--terra);border-bottom-color:var(--terra)}.item-name a::after{content:' ↗';font-size:.75em;color:var(--olive)}
+.langsel{background:rgba(255,255,255,.08);color:#eef7f7;border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;cursor:pointer;margin-left:18px}.langsel option{color:#223a3c;background:#fff}
+html[dir=rtl] .search input{padding:14px 48px 14px 22px}html[dir=rtl] .search svg{right:18px;left:auto}html[dir=rtl] .note{border-left:none;border-right:3px solid var(--gold);padding-left:0;padding-right:12px}html[dir=rtl] nav.top a,html[dir=rtl] .langsel{margin-left:0;margin-right:18px}
 </style>
 </head>
 <body>
@@ -95,7 +97,7 @@ footer a{color:var(--gold)}
  <nav class="top">
   <a href="#guide">La Guida</a>
   <a href="#experiences">Esperienze</a>
-  <a class="langbtn" href="index.html">ENG</a><a class="langbtn" href="de.html">DEU</a>
+  <select class="langsel" aria-label="Language" onchange="location.href=this.value"><option value="index.html">English</option><option value="it.html" selected>Italiano</option><option value="de.html">Deutsch</option><option value="nl.html">Nederlands</option><option value="fr.html">Français</option><option value="es.html">Español</option><option value="pt.html">Português</option><option value="pl.html">Polski</option><option value="ru.html">Русский</option><option value="sk.html">Slovenčina</option><option value="hr.html">Hrvatski</option><option value="sl.html">Slovenščina</option><option value="ro.html">Română</option><option value="sq.html">Shqip</option><option value="zh.html">中文</option><option value="ar.html">العربية</option></select>
  </nav>
 </div></header>
 
